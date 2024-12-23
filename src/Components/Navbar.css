@@ -1,0 +1,19 @@
+nav {
+  display: flex; /* Usando Flexbox */
+  flex-direction: column; /* Alinhando os itens em coluna */
+  align-items: center; /* Alinhando os itens ao centro na horizontal */
+  justify-content: center; /* Centralizando os itens na vertical */
+  height: 40vh; /* Fazendo a navbar ocupar toda a altura da tela */
+}
+
+nav a {
+  margin: 5px 10; /* Espaçamento entre os itens */
+  padding: 20px 0px; /* Espaçamento interno */
+  text-decoration: none;
+  color: #c91010;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
